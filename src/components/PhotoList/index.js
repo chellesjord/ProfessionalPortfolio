@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+// TO DO: Figure out why the pictures are not rendering
+// TO DO: Add links for Repo and GitHub for pictures.
 
 const PhotoList = ({ category }) => {
     const [photos] = useState([
