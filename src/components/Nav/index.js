@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function Nav() {
-    const categories = [
-        {name: "Portfolio", description: "Links to my GitHub projects"},
-        {name: "Resume", description: "Resume"},
-        {name: "Social Media", description: "Social Media links such as LinkedIn, GitHub, etc."},
-    ];
+function Nav(props) {
+    const {
+        categories = [],
+        setCurrentCategory,
+        currentCategory,
+      } = props;
 
     const handleClick = () => {
         console.log("click handled")
@@ -27,10 +27,10 @@ function Nav() {
                         <span onClick={() => handleClick()}>Contact</span>
                     </li>
                     {categories.map((category) => (
-                        <li
-                            className='mx-1' key={category.name} >
-                            <span onClick={() => { handleClick(); }}>
-                                {category.name}
+                        <li className={`mx-1 ${currentCategory.name === category.name && 'navActive'
+                            }`} key={category.name}>
+                            <span
+                                onClick={() => { setCurrentCategory(category) }}>
                             </span>
                         </li>
                     ))}
