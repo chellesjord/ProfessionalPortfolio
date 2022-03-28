@@ -14,7 +14,6 @@ function Nav(props) {
   } = props;
 
   const handleClick = (item) => {
-    console.log(item);
     return item;
   };
 

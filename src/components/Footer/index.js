@@ -6,8 +6,8 @@ function Footer() {
             <h1 id="about">Footer</h1>
             <div className="my-2">
                 <p>
-                GitHub: https://github.com/chellesjord
-                LinkedIn: https://www.linkedin.com/in/chellesjord/
+                <a href="https://github.com/chellesjord">GitHub</a>
+                <a href="https://www.linkedin.com/in/chellesjord/">LinkedIn</a>
                 </p>
             </div>
         </section>

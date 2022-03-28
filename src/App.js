@@ -4,7 +4,6 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
-// TO DO: Include a footer!!!!!
 
 function App() {
   const [categories] = useState([
@@ -31,7 +30,6 @@ function App() {
       ></Nav>
       <main>
         {/* TO DO: try to make a better if else statement for presenting data when clicked */}
-        {/* TO DO: create a footer!!!!*/}
 
         {!contactSelected ? (
           <>
