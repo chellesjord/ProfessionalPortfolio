@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/ProfessionalPortfolio/static/css/main.8832ea63.css",
-    "main.js": "/ProfessionalPortfolio/static/js/main.cc3dfbfd.js",
+    "main.css": "/ProfessionalPortfolio/static/css/main.12ad3d6f.css",
+    "main.js": "/ProfessionalPortfolio/static/js/main.a42bb66e.js",
     "static/js/787.26c94a4e.chunk.js": "/ProfessionalPortfolio/static/js/787.26c94a4e.chunk.js",
-    "static/media/cover-image.jpg": "/ProfessionalPortfolio/static/media/cover-image.8b9312af09f85da43c0e.jpg",
+    "static/media/profileimage.jpg": "/ProfessionalPortfolio/static/media/profileimage.8b9312af09f85da43c0e.jpg",
+    "static/media/5.jpg": "/ProfessionalPortfolio/static/media/5.678c80937d078a62c794.jpg",
     "static/media/1.jpg": "/ProfessionalPortfolio/static/media/1.b480effa8066f2277009.jpg",
-    "static/media/0.jpg": "/ProfessionalPortfolio/static/media/0.b89b4c784753ec82e822.jpg",
+    "static/media/coverImage.jpg": "/ProfessionalPortfolio/static/media/coverImage.daf0b4e15c0f7917ab81.jpg",
+    "static/media/0.jpg": "/ProfessionalPortfolio/static/media/0.0b42a8865c462bd3b5e2.jpg",
     "static/media/3.jpg": "/ProfessionalPortfolio/static/media/3.bd07719df60e73ff560c.jpg",
     "static/media/2.jpg": "/ProfessionalPortfolio/static/media/2.450486f68806aab71b1e.jpg",
     "static/media/4.jpg": "/ProfessionalPortfolio/static/media/4.a5f1d4e1920dc1d4c0ca.jpg",
     "index.html": "/ProfessionalPortfolio/index.html",
-    "main.8832ea63.css.map": "/ProfessionalPortfolio/static/css/main.8832ea63.css.map",
-    "main.cc3dfbfd.js.map": "/ProfessionalPortfolio/static/js/main.cc3dfbfd.js.map",
+    "main.12ad3d6f.css.map": "/ProfessionalPortfolio/static/css/main.12ad3d6f.css.map",
+    "main.a42bb66e.js.map": "/ProfessionalPortfolio/static/js/main.a42bb66e.js.map",
     "787.26c94a4e.chunk.js.map": "/ProfessionalPortfolio/static/js/787.26c94a4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8832ea63.css",
-    "static/js/main.cc3dfbfd.js"
+    "static/css/main.12ad3d6f.css",
+    "static/js/main.a42bb66e.js"
   ]
 }
