@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# ProfessionalPortfolio
+
+GitHub Link: https://github.com/chellesjord/ProfessionalPortfolio
+
+Deployed Link: https://chellesjord.github.io/ProfessionalPortfolio/
+
+## Description
+
+A portfolio, using React skills to help set me apart from other developers.
+
+## Instruction
+
+> The application is fully deployed to Heroku at the site linked above. If you want to use it, feel free to follow the link and sign up for the site in order to log in and make posts.
+
+## Questions
+
+> If you have any questions contact me at ctijerina@live.com or through my Github Link: https://github.com/chellesjord
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
