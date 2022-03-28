@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
-// TO DO: Add links for Repo and GitHub for pictures.
 
 const PhotoList = ({ category }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);

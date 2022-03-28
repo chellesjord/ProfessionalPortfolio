@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
-// TO DO: workout the aboutSelected section to help with selective rendering
 
 function Nav(props) {
   const {
@@ -9,8 +8,6 @@ function Nav(props) {
     currentCategory,
     contactSelected,
     setContactSelected,
-    aboutSelected,
-    setAboutSelected
   } = props;
 
   const handleClick = (item) => {

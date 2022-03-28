@@ -33,8 +33,6 @@ function App() {
         setAboutSelected={setAboutSelected}
       ></Nav>
       <main>
-        {/* TO DO: try to make a better if else statement for presenting data when clicked */}
-
         {!contactSelected ? (
           <>
             <Projects currentCategory={currentCategory}></Projects>
