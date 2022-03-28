@@ -10,6 +10,10 @@ function App() {
     {
       name: 'Portfolio',
       description: 'Screenshots and links to my GitHub applications',
+    },
+    {
+      name: 'Resume',
+      description: 'View my resume in the web browser or click the link download',
     }
   ]);
 
@@ -35,7 +39,6 @@ function App() {
           <>
             <Projects currentCategory={currentCategory}></Projects>
             <About></About>
-            
           </>
         ) : (
             <ContactForm></ContactForm>

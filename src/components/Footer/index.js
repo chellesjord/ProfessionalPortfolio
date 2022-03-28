@@ -2,14 +2,16 @@ import React from "react";
 
 function Footer() {
     return (
-        <section className="my-5">
-            <h1 id="about">Footer</h1>
-            <div className="my-2">
-                <p>
-                <a href="https://github.com/chellesjord">GitHub</a>
-                <a href="https://www.linkedin.com/in/chellesjord/">LinkedIn</a>
-                </p>
-            </div>
+        <section className="mt-auto footer flex-row px-1">
+            <h1>My Links</h1>
+            <ul className="flex-row">
+                <li className="mx-2">
+                    <a href="https://github.com/chellesjord">GitHub </a>
+                </li>
+                <li className="mx-2">
+                    <a href="https://www.linkedin.com/in/chellesjord/"> LinkedIn</a>
+                </li>
+            </ul>
         </section>
     )
 }
