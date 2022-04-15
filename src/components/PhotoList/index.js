@@ -54,6 +54,14 @@ const PhotoList = ({ category }) => {
             repo: 'https://github.com/chellesjord/Employee-Tracker'
         },
         {
+            name: 'Go Go Gomez',
+            category: 'Portfolio',
+            description:
+                'GoGoGomez is a Meal Prep service with an expanding customer base that needs a website to handle the amount customers and to move away from running the business through Facebook and Instagram.',
+            deployed: 'https://shrouded-journey-40287.herokuapp.com/',
+            repo: 'https://github.com/chellesjord/gogogomez'
+        },
+        {
             name: 'My Resume',
             category: 'Resume',
             description:
