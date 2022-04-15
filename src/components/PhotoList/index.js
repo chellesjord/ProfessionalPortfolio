@@ -22,12 +22,12 @@ const PhotoList = ({ category }) => {
             repo: 'https://github.com/mikebashford/personal-crypto-tracker'
         },
         {
-            name: 'Run Buddy',
+            name: 'Go Go Gomez',
             category: 'Portfolio',
             description:
-                'A website that offers fitness training services.',
-            deployed: 'https://chellesjord.github.io/run-buddy/',
-            repo: 'https://github.com/chellesjord/run-buddy'
+                'GoGoGomez is a Meal Prep service with an expanding customer base that needs a website to handle the amount customers and to move away from running the business through Facebook and Instagram.',
+            deployed: 'https://shrouded-journey-40287.herokuapp.com/',
+            repo: 'https://github.com/chellesjord/gogogomez'
         },
         {
             name: 'Work-Day Scheduler',
@@ -52,14 +52,6 @@ const PhotoList = ({ category }) => {
                 'The user is able to view Employees, Job Roles, Departments, and mode via node on the terminal. The user can also add more Employees, Departments, and Roles as needed. Finally, the user can update the Employee as needed with the otpions to change varying as the user needs.',
             deployed: 'https://github.com/chellesjord/Employee-Tracker',
             repo: 'https://github.com/chellesjord/Employee-Tracker'
-        },
-        {
-            name: 'Go Go Gomez',
-            category: 'Portfolio',
-            description:
-                'GoGoGomez is a Meal Prep service with an expanding customer base that needs a website to handle the amount customers and to move away from running the business through Facebook and Instagram.',
-            deployed: 'https://shrouded-journey-40287.herokuapp.com/',
-            repo: 'https://github.com/chellesjord/gogogomez'
         },
         {
             name: 'My Resume',
