@@ -1,48 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
+import {HashRouter, Route, Routes } from 'react-router-dom';
+
+
 import Nav from './components/Nav';
-import About from './components/About';
-import Projects from './components/Projects';
-import ContactForm from './components/Contact';
+// import About from './components/About';
+// import Projects from './components/Projects';
+// import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
+import AboutPage from "./pages/About";
+import NoMatch from "./pages/NoMatch";
+
 function App() {
-  const [categories] = useState([
-    {
-      name: 'Portfolio',
-      description: 'Screenshots and links to my GitHub applications',
-    },
-    {
-      name: 'Resume',
-      description: 'View my resume in the web browser or click the link download',
-    }
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [aboutSelected, setAboutSelected] = useState(false);
-
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Projects currentCategory={currentCategory}></Projects>
-            <About></About>
-          </>
-        ) : (
-            <ContactForm></ContactForm>
-          )}
-      </main>
-      <Footer></Footer>
+      <HashRouter>
+        <Nav />
+        <main>
+          <Routes>
+            <Route exact path="/" element={<AboutPage/>} />
+            <Route exact path="/about" element={<AboutPage/>} />
+            <Route component={NoMatch} />
+          </Routes>
+          <Footer/>
+        </main>
+        </HashRouter>
     </div>
   );
 }

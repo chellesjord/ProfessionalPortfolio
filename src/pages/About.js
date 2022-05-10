@@ -1,8 +1,9 @@
-import React from "react";
-import profileImage from "../../assets/cover/profileimage.jpg";
+import React from 'react';
+import profileImage from "../../src/assets/cover/profileimage.jpg";
 
-function About() {
+const AboutPage = () => {
     return (
+        <main>
         <section className="my-5">
             <h1 id="about">About Me</h1>
             <div className="my-2">
@@ -13,8 +14,8 @@ function About() {
                 
             </div>
         </section>
-    )
-}
+        </main>
+    );
+};
 
-
-export default About;
+export default AboutPage;

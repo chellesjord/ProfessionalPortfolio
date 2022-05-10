@@ -1,19 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected,
-  } = props;
-
-  const handleClick = (item) => {
-    return item;
-  };
-
+function Nav() {
   return (
     <header className="flex-row px-1">
       <h2>
@@ -24,29 +13,11 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
+            <Link to="/about">About me</Link>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className="mx-2">
+            <Link to="/contact">Contact</Link>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
         </ul>
       </nav>
     </header>
