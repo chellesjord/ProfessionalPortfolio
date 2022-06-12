@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-const PhotoList = ({ category }) => {
+const PhotoList = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentPhoto, setCurrentPhoto] = useState();
     const [photos] = useState([
@@ -53,17 +53,15 @@ const PhotoList = ({ category }) => {
             deployed: 'https://github.com/chellesjord/Employee-Tracker',
             repo: 'https://github.com/chellesjord/Employee-Tracker'
         },
-        {
-            name: 'My Resume',
-            category: 'Resume',
-            description:
-                'Click the link below to download a copy of my resume',
-            deployed: 'https://bit.ly/3DkET3U',
-            repo: 'https://bit.ly/3DkET3U'
-        }
+        // {
+        //     name: 'My Resume',
+        //     category: 'Resume',
+        //     description:
+        //         'Click the link below to download a copy of my resume',
+        //     deployed: 'https://bit.ly/3DkET3U',
+        //     repo: 'https://bit.ly/3DkET3U'
+        // }
     ]);
-
-    const currentPhotos = photos.filter(photo => photo.category === category);
 
     const toggleModal = (image, i) => {
         setCurrentPhoto({ ...image, index: i });
@@ -76,9 +74,9 @@ const PhotoList = ({ category }) => {
                 <Modal onClose={toggleModal} currentPhoto={currentPhoto} />
             )}
             <div className="flex-row">
-                {currentPhotos.map((image, i) => (
+                {photos.map((image, i) => (
                     <img
-                        src={require(`../../assets/small/${category}/${i}.jpg`)}
+                        src={require(`../../assets/small/Portfolio/${i}.jpg`)}
                         alt={image.name}
                         className="img img-thumbnail mx-1"
                         style={{ width: "30%" }}

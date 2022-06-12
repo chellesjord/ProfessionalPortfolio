@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
+import PortfolioPage from "./pages/Gallery";
 import NoMatch from "./pages/NoMatch";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/" element={<AboutPage/>} />
             <Route exact path="/about" element={<AboutPage/>} />
             <Route exact path="/contact" element={<ContactPage/>} />
+            <Route exact path="/porfolio" element={<PortfolioPage/>} />
             <Route component={NoMatch} />
           </Routes>
           <Footer/>
