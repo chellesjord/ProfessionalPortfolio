@@ -52,7 +52,7 @@ const PhotoList = () => {
                 'The user is able to view Employees, Job Roles, Departments, and mode via node on the terminal. The user can also add more Employees, Departments, and Roles as needed. Finally, the user can update the Employee as needed with the otpions to change varying as the user needs.',
             deployed: 'https://github.com/chellesjord/Employee-Tracker',
             repo: 'https://github.com/chellesjord/Employee-Tracker'
-        },
+        // },
         // {
         //     name: 'My Resume',
         //     category: 'Resume',
@@ -60,7 +60,7 @@ const PhotoList = () => {
         //         'Click the link below to download a copy of my resume',
         //     deployed: 'https://bit.ly/3DkET3U',
         //     repo: 'https://bit.ly/3DkET3U'
-        // }
+        }
     ]);
 
     const toggleModal = (image, i) => {

@@ -2,14 +2,14 @@ import React from 'react';
 import PhotoList from '../components/PhotoList';
 import Modal from '../components/Modal';
 
-const GalleryPage = () => {
+const PortfolioPage = () => {
     return (
         <main>
             <section>
-                <PhotoList />
+                <PhotoList/>
             </section>
         </main>
     );
 };
 
-export default GalleryPage
+export default PortfolioPage
