@@ -11,6 +11,9 @@ function Footer() {
                 <li className="mx-2">
                     <a href="https://www.linkedin.com/in/chellesjord/"> LinkedIn</a>
                 </li>
+                <li className="mx-2">
+                    <a href = "mailto: m.kayejordan@gmail.com">email: m.kayejordan@gmail.com</a>
+                </li>
             </ul>
         </section>
     )

@@ -9,7 +9,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'Portfolio',
-      description: 'Screenshots and links to my GitHub applications',
+      description: 'Click each screenshot to view deployed website links and GitHub applications',
     },
     {
       name: 'Resume',
